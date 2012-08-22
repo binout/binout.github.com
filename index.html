@@ -1,0 +1,91 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en">
+    <head>
+        <title>binout.java</title>
+        <!-- Bootstrap -->
+        <link href="css/bootstrap.min.css" rel="stylesheet"/>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/jquery.js"></script>
+    </head>
+    
+    <body>
+        
+        <header>
+            <div class='container'>
+                <div class='row'>
+                    <div class='span2 logo'>
+                        <a href="/"><img src="./img/duke.png" /></a>
+                    </div>
+                    <div class='span14'>
+                        <h1>Binout Java Hub</h1>
+                        <p class='lead'>
+                          This site is a hub site for all my tricks and tips in java.<br/>
+                          The tricks and tips are tagged by categories : <br/>
+                            <button class="btn btn-small btn-primary" type="button" id="all">All</button>
+                            <button class="btn btn-small btn-primary" type="button" name="tag" id="cloud">cloud</button>
+                            <button class="btn btn-small btn-primary" type="button" name="tag" id="jboss">jboss</button>
+                            <button class="btn btn-small btn-primary" type="button" name="tag" id="jsf">jsf</button>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <br/>
+        <div class='container'>
+            <div class='row'>
+                <table class="table table-striped">
+                    <thead>
+                        <tr name="head">
+                            <th>Description</th>
+                            <th>Categories</th>
+                            <th>Link</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr name="jboss,jsf">
+                            <td>How to make JSF2 works on JBoss 5</td>
+                            <td>
+                                <button class="btn btn-small btn-primary" type="button">jboss</button>
+                                <button class="btn btn-small btn-primary" type="button">jsf</button>
+                            </td>
+                            <td><a name="mylink">http://javaevangelist.blogspot.fr/2012/04/jsf-2-on-jboss-as-510.html</a></td>
+                        </tr>
+                        <tr name="jboss,cloud">
+                            <td>How to deploy a Java EE application on OpenShift Express (with AS7 support)</td>
+                            <td>
+                                <button class="btn btn-small btn-primary" type="button">jboss</button>
+                                <button class="btn btn-small btn-primary" type="button">cloud</button>
+                            </td>
+                            <td><a name="mylink">http://jaitechwriteups.blogspot.fr/2011/08/deploy-java-ee-application-on-openshift.html</a></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>    
+        </div>
+        
+        <script>
+            $(document).ready(function()
+            {
+                $("a[name='mylink']").each(function()
+                { 
+                    this.href = this.text;
+                    this.target = '_blank';
+                });
+                
+                $("button[id='all']").click(function(event)
+                {
+                    document.location.reload(true);
+                });
+                
+                $("button[name='tag']").click(function(event)
+                {
+                    var tag = event.target.id;
+                    $("tr[name!="+tag+"]").hide();
+                    $("tr[name*="+tag+"]").show();
+                    $("tr[name='head']").show();
+                });
+            });
+        </script>
+    </body
+</html>
