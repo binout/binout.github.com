@@ -38,7 +38,8 @@
         <br/>
         <div class='container'>
             <div class='row'>
-                <table class="table table-striped">
+                <div id="count" style="text-align: right"></div>
+                <table class="table table-striped table-bordered">
                     <thead>
                         <tr name="head">
                             <th>Description</th>
@@ -46,7 +47,7 @@
                             <th>Link</th>
                         </tr>
                     </thead>
-                    <tbody>
+                    <tbody id="list">
                         <tr name="jboss,jsf">
                             <td>How to make JSF2 works on JBoss 5</td>
                             <td>
@@ -137,6 +138,8 @@
         <script>
             $(document).ready(function()
             {
+                $("div[id='count']").text("Total : " + $("tbody[id='list']").children("tr").length + " items");
+                
                 $("a[name='mylink']").each(function()
                 { 
                     this.href = this.text;
