@@ -23,7 +23,7 @@
                 <div class='span14'>
                     <h1>Binout Java Hub</h1>
                     <p class='lead'>
-                      This site is a hub site for all my tricks and tips in java.<br/>
+                      This site is a hub site for all my tricks and tips in java.&nbsp;<br/>
                       The tricks and tips are tagged by categories : <br/>
                         <button class="btn btn-small btn-primary" type="button" id="all">All</button>
                         <button class="btn btn-small btn-primary" type="button" name="tag" id="cdi">cdi</button>                            
@@ -35,7 +35,36 @@
                         <button class="btn btn-small btn-primary" type="button" name="tag" id="rest">rest</button>                            
                         <button class="btn btn-small btn-primary" type="button" name="tag" id="test">test</button>                                                        
                     </p>
-                </div>                         
+                </div>
+                <!-- Twitter timeline -->
+                <script charset="utf-8" src="http://widgets.twimg.com/j/2/widget.js"></script>
+                <script>
+                new TWTR.Widget({
+                  version: 2,
+                  type: 'profile',
+                  rpp: 4,
+                  interval: 30000,
+                  width: 300,
+                  height: 170,
+                  theme: {
+                    shell: {
+                      background: '#58b3f0',
+                      color: '#ffffff'
+                    },
+                    tweets: {
+                      background: '#ffffff',
+                      color: '#000000',
+                      links: '#ff0000'
+                    }
+                  },
+                  features: {
+                    scrollbar: true,
+                    loop: false,
+                    live: true,
+                    behavior: 'all'
+                  }
+                }).render().setUser('binout').start();
+                </script>
             </div>
         </div>
             
@@ -143,7 +172,7 @@
                             <td><a name="mylink">http://www.mkyong.com/java/javamail-api-sending-email-via-gmail-smtp-example</a></td>
                         </tr>                        
                     </tbody>
-                </table>
+                </table>                
             </div>    
         </div>
         
