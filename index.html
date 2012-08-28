@@ -7,7 +7,8 @@
         <!-- Bootstrap -->
         <link href="css/bootstrap.min.css" rel="stylesheet"/>
         <script src="js/bootstrap.min.js"></script>
-        <script src="js/jquery.js"></script>
+        <script src="http://widgets.twimg.com/j/2/widget.js"></script>
+        <script src="js/jquery.js"></script>        
     </head>
     
     <body>
@@ -36,38 +37,40 @@
                         <button class="btn btn-small btn-primary" type="button" name="tag" id="test">test</button>                                                        
                     </p>
                 </div>
-                <!-- Twitter timeline -->
-                <script charset="utf-8" src="http://widgets.twimg.com/j/2/widget.js"></script>
-                <script>
-                new TWTR.Widget({
-                  version: 2,
-                  type: 'profile',
-                  rpp: 4,
-                  interval: 30000,
-                  width: 300,
-                  height: 170,
-                  theme: {
-                    shell: {
-                      background: '#58b3f0',
-                      color: '#ffffff'
-                    },
-                    tweets: {
-                      background: '#ffffff',
-                      color: '#000000',
-                      links: '#ff0000'
-                    }
-                  },
-                  features: {
-                    scrollbar: true,
-                    loop: false,
-                    live: true,
-                    behavior: 'all'
-                  }
-                }).render().setUser('binout').start();
-                </script>
+                <div class="span2">
+                    <!-- Twitter timeline -->
+                    <script>
+                    new TWTR.Widget({
+                      version: 2,
+                      type: 'profile',
+                      rpp: 4,
+                      interval: 30000,
+                      width: 290,
+                      height: 170,
+                      theme: {
+                        shell: {
+                          background: '#58b3f0',
+                          color: '#ffffff'
+                        },
+                        tweets: {
+                          background: '#ffffff',
+                          color: '#000000',
+                          links: '#ff0000'
+                        }
+                      },
+                      features: {
+                        scrollbar: true,
+                        loop: false,
+                        live: true,
+                        behavior: 'all'
+                      }
+                    }).render().setUser('binout').start();
+                    </script>
+                </div>               
             </div>
-        </div>
             
+        </div>            
+             
         <br/>
         
         <div class='container'>
