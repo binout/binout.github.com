@@ -1,18 +1,21 @@
 <?xml version='1.0' encoding='UTF-8' ?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE html>
 <html lang="en">
     <head>
         <title>Binout Java Hub</title>
         <link rel="shortcut icon" href="http://binout.github.com/favicon.ico" />
         <!-- Bootstrap -->
         <link href="css/bootstrap.min.css" rel="stylesheet"/>
+        <link href="css/bootstrap-responsive.min.css" rel="stylesheet"/>        
         <script src="js/bootstrap.min.js"></script>
+        <!-- Twitter -->
         <script src="http://widgets.twimg.com/j/2/widget.js"></script>
+        <!-- JQuery -->
         <script src="js/jquery.js"></script>        
     </head>
     
     <body>
-        <div style="text-align: right">
+        <div class="hidden-phone" style="text-align: right">
             <a href="http://www.javaonemorething.wordpress.com" target="_blank"><img src="./img/blog.png" /></a>
         </div>       
         
@@ -37,36 +40,38 @@
                         <button class="btn btn-small btn-primary" type="button" name="tag" id="test">test</button>                                                        
                     </p>
                 </div>
-                <div class="span2">
-                    <!-- Twitter timeline -->
-                    <script>
-                    new TWTR.Widget({
-                      version: 2,
-                      type: 'profile',
-                      rpp: 4,
-                      interval: 30000,
-                      width: 290,
-                      height: 170,
-                      theme: {
-                        shell: {
-                          background: '#58b3f0',
-                          color: '#ffffff'
-                        },
-                        tweets: {
-                          background: '#ffffff',
-                          color: '#000000',
-                          links: '#ff0000'
-                        }
-                      },
-                      features: {
-                        scrollbar: true,
-                        loop: false,
-                        live: true,
-                        behavior: 'all'
-                      }
-                    }).render().setUser('binout').start();
-                    </script>
-                </div>               
+                <div class="hidden-phone">
+                    <div class="span2">
+                        <!-- Twitter timeline -->
+                        <script>
+                        new TWTR.Widget({
+                          version: 2,
+                          type: 'profile',
+                          rpp: 4,
+                          interval: 30000,
+                          width: 290,
+                          height: 170,
+                          theme: {
+                            shell: {
+                              background: '#58b3f0',
+                              color: '#ffffff'
+                            },
+                            tweets: {
+                              background: '#ffffff',
+                              color: '#000000',
+                              links: '#ff0000'
+                            }
+                          },
+                          features: {
+                            scrollbar: true,
+                            loop: false,
+                            live: true,
+                            behavior: 'all'
+                          }
+                        }).render().setUser('binout').start();
+                        </script>
+                    </div>
+                </div>
             </div>
             
         </div>            
