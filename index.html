@@ -96,7 +96,7 @@
                             <td>{{tip.name}}</td>
                             <td>
                                 <button ng-repeat="tag in tip.tags" class="btn btn-small btn-primary" type="button">
-                                    <input ng-model="tip.tags[$index]">
+                                    {{tip.tags[$index]}}
                                 </button>
                             </td>
                             <td><a target='_blank' href="{{tip.link}}">{{tip.link}}</a></td>
