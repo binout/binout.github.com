@@ -25,8 +25,8 @@
                       This site is a hub site for all my tricks and tips in java.&nbsp;<br/>
                       The tricks and tips are tagged by categories : <br/>
                         <button class="btn btn-small btn-primary" type="button" id="all">All</button>
-                        <button ng-repeat="tag in tags.data" class="btn btn-small btn-primary" type="button">
-                            {{tags[$index]}}
+                        <button ng-repeat="tag in tags.data" class="btn btn-small btn-primary" type="button" name="tag" id="{{tag}}" >
+                            {{tag}}
                         </button>
                     </p>
                 </div>
