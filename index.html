@@ -25,11 +25,9 @@
                       This site is a hub site for all my tricks and tips in java.&nbsp;<br/>
                       The tricks and tips are tagged by categories : <br/>
                         <button class="btn btn-small btn-primary" type="button" onclick="document.location.reload(true)">All</button>
-                        <div ng-repeat="tag in tags.data">
-                            <button class="btn btn-small btn-primary" type="button" onclick="filter('{{tag}}'")>
-                            {{tag}}
-                            </button>
-                        </div>
+                        <span ng-repeat="tag in tags.data">
+                            <button class="btn btn-small btn-primary" type="button" onclick="filter('{{tag}}')">{{tag}}</button>
+                        </span>
                     </p>
                 </div>
                 <div class="hidden-phone">
