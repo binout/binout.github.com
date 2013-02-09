@@ -1,5 +1,10 @@
 [
     {
+        "name": "AngularUI The companion suite to the AngularJS framework",
+        "link": "http://angular-ui.github.com/",
+        "tags" : ["javascript"]
+    },
+    {
         "name": "Mes premiers pas avec AngularJS",
         "link": "http://hugeen.wordpress.com/2013/02/02/mes-premiers-pas-avec-angularjs/",
         "tags" : ["javascript"]
