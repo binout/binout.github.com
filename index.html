@@ -94,8 +94,8 @@
                         <tr ng-repeat="tip in tips.data"
                             name="{{tip.tags}}">
                             <td>{{tip.name}}</td>
-                            <td ng-repeat="tag in tips.tags">
-                                <button class="btn btn-small btn-primary" type="button">{{tag}}</button>
+                            <td>
+                                <button ng-repeat="tag in tips.tags" class="btn btn-small btn-primary" type="button">{{tag}}</button>
                             </td>
                             <td><a name="mylink">{{tip.link}}</a></td>
                         </tr>
