@@ -1,5 +1,10 @@
 [
     {
+        "name": "Mes premiers pas avec AngularJS",
+        "link": "http://hugeen.wordpress.com/2013/02/02/mes-premiers-pas-avec-angularjs/",
+        "tags" : ["javascript"]
+    },
+    {
         "name": "Testing Java Persistence",
         "link": "http://arquillian.org/guides/testing_java_persistence/#write_the_test",
         "tags" : ["test"]
