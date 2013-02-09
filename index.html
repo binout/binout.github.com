@@ -95,11 +95,11 @@
                             name="{{tip.tags}}">
                             <td>{{tip.name}}</td>
                             <td>
-                                <div ng-repeat="tag in tip.tags">
-                                    <button class="btn btn-small btn-primary" type="button"><input ng-model="tip.tags[$index]"></button>
-                                </div>
+                                <button ng-repeat="tag in tip.tags" class="btn btn-small btn-primary" type="button">
+                                    <input ng-model="tip.tags[$index]">
+                                </button>
                             </td>
-                            <td><a name="mylink">{{tip.link}}</a></td>
+                            <td><a target='_blank' href="{{tip.link}}">{{tip.link}}</a></td>
                         </tr>
                     </tbody>
                 </table>                
@@ -121,12 +121,6 @@
 
         $(document).ready(function()
         {
-            $("a[name='mylink']").each(function()
-            {
-                this.href = this.text;
-                this.target = '_blank';
-            });
-
             $("button[id='all']").click(function(event)
             {
                 document.location.reload(true);
