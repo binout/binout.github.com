@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/data.json" line="4" mnemonic="5" />
-  </component>
   <component name="ChangeListManager">
     <list default="true" id="50d292d9-1d24-4c07-ac8f-3225a6aaf6aa" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data.json" afterPath="$PROJECT_DIR$/data.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="binout.github.com.iws" />
@@ -70,10 +68,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="92" column="58" selection-start="4812" selection-end="4812" vertical-scroll-proportion="0.46528804">
+            <state line="88" column="55" selection-start="4610" selection-end="4610" vertical-scroll-proportion="-3.75">
               <folding>
                 <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -83,10 +81,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="data.json" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="data.json" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/data.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="79" column="18" selection-start="0" selection-end="3910" vertical-scroll-proportion="0.0">
+            <state line="105" column="5" selection-start="3908" selection-end="3908" vertical-scroll-proportion="2.2467904">
               <folding />
             </state>
           </provider>
@@ -110,8 +108,8 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/data.json" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/data.json" />
       </list>
     </option>
   </component>
@@ -390,21 +388,21 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/data.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="79" column="18" selection-start="0" selection-end="3910" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="92" column="58" selection-start="4812" selection-end="4812" vertical-scroll-proportion="0.46528804">
+        <state line="88" column="55" selection-start="4610" selection-end="4610" vertical-scroll-proportion="-3.75">
           <folding>
             <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="105" column="5" selection-start="3908" selection-end="3908" vertical-scroll-proportion="2.2467904">
+          <folding />
         </state>
       </provider>
     </entry>

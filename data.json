@@ -1,8 +1,63 @@
 [
     {
-        "name": "How to make JSF2 works on JBoss 5",
-        "link": "http://javaevangelist.blogspot.fr/2012/04/jsf-2-on-jboss-as-510.html",
-        "tags" : ["jboss","jsf"]
+        "name": "Devoxx 2012 : Unit Testing en Javascript et intégration dans le build",
+        "link": "http://www.hortis.ch/blog/devoxx-2012-unit-testing-en-javascript-integration-dans-le-build/",
+        "tags" : ["javascript","test"]
+    },
+    {
+        "name": "Bootstrap directives for AngularJS<",
+        "link": "http://mgcrea.github.com/angular-strap/",
+        "tags" : ["javascript"]
+    },
+    {
+        "name": "Chocolatey NuGet is a Machine Package Manager, somewhat like apt-get, but built with Windows in mind",
+        "link": "http://chocolatey.org/",
+        "tags" : ["misc"]
+    },
+    {
+        "name": "Chouchoutez votre code JavaScript",
+        "link": "http://linsolas.free.fr/wordpress/index.php/2012/04/chouchoutez-votre-code-javascript/",
+        "tags" : ["javascript","test"]
+    },
+    {
+        "name": "Javascript and Maven",
+        "link": "http://www.itaware.eu/2012/08/29/javascript-et-maven/",
+        "tags" : ["javascript","maven"]
+    },
+    {
+        "name": "Add a parameter to a facelet template",
+        "link": "http://www.xinotes.org/notes/note/1550/",
+        "tags" : ["jsf"]
+    },
+    {
+        "name": "Secure REST with JAX-RS",
+        "link": "http://www.slideshare.net/caroljmcdonald/secure-rest-with-jaxrs",
+        "tags" : ["rest"]
+    },
+    {
+        "name": "REST with Java (JAX-RS) using Jersey - Tutorial",
+        "link": "http://www.vogella.com/articles/REST/article.html",
+        "tags" : ["rest"]
+    },
+    {
+        "name": "JavaMail API – Sending Email Via Gmail SMTP Example",
+        "link": "http://www.mkyong.com/java/javamail-api-sending-email-via-gmail-smtp-example",
+        "tags" : ["misc"]
+    },
+    {
+        "name": "Unit Testing Strategies for CDI based projects",
+        "link": "http://struberg.wordpress.com/2012/03/27/unit-testing-strategies-for-cdi-based-projects",
+        "tags" : ["cdi","test"]
+    },
+    {
+        "name": "Application configuration in Java EE 6 using CDI",
+        "link": "http://weblogs.java.net/blog/jjviana/archive/2010/05/18/applicaction-configuration-java-ee-6-using-cdi-simple-example",
+        "tags" : ["cdi"]
+    },
+    {
+        "name": "Separating Code Coverage With Maven, Sonar and Jacoco",
+        "link": "http://java.dzone.com/articles/separating-code-coverage-maven",
+        "tags" : ["test","maven"]
     },
     {
         "name": "How to deploy a Java EE application on OpenShift Express (with AS7 support)",
@@ -20,6 +75,11 @@
         "tags" : ["jboss","maven"]
     },
     {
+        "name": "Httpie, alternative to Curl",
+        "link": "https://github.com/jkbr/httpie",
+        "tags" : ["rest"]
+    },
+    {
         "name": "How to test System.*",
         "link": "http://c2.com/cgi/wiki?JavaTestingTactics",
         "tags" : ["test"]
@@ -35,73 +95,13 @@
         "tags" : ["misc"]
     },
     {
-        "name": "Httpie, alternative to Curl",
-        "link": "https://github.com/jkbr/httpie",
-        "tags" : ["rest"]
-    },
-    {
-        "name": "Separating Code Coverage With Maven, Sonar and Jacoco",
-        "link": "http://java.dzone.com/articles/separating-code-coverage-maven",
-        "tags" : ["test","maven"]
-    },
-    {
-        "name": "Application configuration in Java EE 6 using CDI",
-        "link": "http://weblogs.java.net/blog/jjviana/archive/2010/05/18/applicaction-configuration-java-ee-6-using-cdi-simple-example",
-        "tags" : ["cdi"]
-    },
-    {
-        "name": "Unit Testing Strategies for CDI based projects",
-        "link": "http://struberg.wordpress.com/2012/03/27/unit-testing-strategies-for-cdi-based-projects",
-        "tags" : ["cdi","test"]
-    },
-    {
-        "name": "JavaMail API – Sending Email Via Gmail SMTP Example",
-        "link": "http://www.mkyong.com/java/javamail-api-sending-email-via-gmail-smtp-example",
-        "tags" : ["misc"]
-    },
-    {
-        "name": "REST with Java (JAX-RS) using Jersey - Tutorial",
-        "link": "http://www.vogella.com/articles/REST/article.html",
-        "tags" : ["rest"]
-    },
-    {
-        "name": "Secure REST with JAX-RS",
-        "link": "http://www.slideshare.net/caroljmcdonald/secure-rest-with-jaxrs",
-        "tags" : ["rest"]
-    },
-    {
-        "name": "Add a parameter to a facelet template",
-        "link": "http://www.xinotes.org/notes/note/1550/",
-        "tags" : ["jsf"]
-    },
-    {
         "name": "How do I migrate my application from AS5 or AS6 to AS7",
         "link": "https://docs.jboss.org/author/display/AS7/How+do+I+migrate+my+application+from+AS5+or+AS6+to+AS7",
         "tags" : ["jboss"]
     },
     {
-        "name": "Javascript and Maven",
-        "link": "http://www.itaware.eu/2012/08/29/javascript-et-maven/",
-        "tags" : ["javascript","maven"]
-    },
-    {
-        "name": "Chouchoutez votre code JavaScript",
-        "link": "http://linsolas.free.fr/wordpress/index.php/2012/04/chouchoutez-votre-code-javascript/",
-        "tags" : ["javascript","test"]
-    },
-    {
-        "name": "Chocolatey NuGet is a Machine Package Manager, somewhat like apt-get, but built with Windows in mind",
-        "link": "http://chocolatey.org/",
-        "tags" : ["misc"]
-    },
-    {
-        "name": "Bootstrap directives for AngularJS<",
-        "link": "http://mgcrea.github.com/angular-strap/",
-        "tags" : ["javascript"]
-    },
-    {
-        "name": "Devoxx 2012 : Unit Testing en Javascript et intégration dans le build",
-        "link": "http://www.hortis.ch/blog/devoxx-2012-unit-testing-en-javascript-integration-dans-le-build/",
-        "tags" : ["javascript","test"]
+        "name": "How to make JSF2 works on JBoss 5",
+        "link": "http://javaevangelist.blogspot.fr/2012/04/jsf-2-on-jboss-as-510.html",
+        "tags" : ["jboss","jsf"]
     }
 ]
