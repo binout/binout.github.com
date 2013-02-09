@@ -5,6 +5,11 @@
         "tags" : ["javascript"]
     },
     {
+        "name": "MockJS - Mockito syntax for JavaScript Unit Testing",
+        "link": "http://blog.9tree.co/post/36735052736/mockjs-mockito-syntax-for-javascript-unit-testing",
+        "tags" : ["javascript","test"]
+    },
+    {
         "name": "Testing Java Persistence",
         "link": "http://arquillian.org/guides/testing_java_persistence/#write_the_test",
         "tags" : ["test"]
