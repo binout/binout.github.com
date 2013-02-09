@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8' ?>
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" ng-app>
     <head>
         <title>Binout Java Hub</title>
         <link rel="shortcut icon" href="http://binout.github.com/favicon.ico" />
@@ -79,7 +79,7 @@
              
         <br/>
         
-        <div class='container'>
+        <div class='container' ng-controller="TipsCtrl">
             <div class='row'>
                 <div id="count" style="text-align: right"></div>
                 <table class="table table-striped table-bordered">
@@ -91,162 +91,14 @@
                         </tr>
                     </thead>
                     <tbody id="list">
-                        <tr name="javascript,test">
-                            <td>Devoxx 2012 : Unit Testing en Javascript et intégration dans le build</td>
-                            <td>
-                                <button class="btn btn-small btn-primary" type="button">javascript</button>
-                                <button class="btn btn-small btn-primary" type="button">test</button>                                
+                        <tr ng-repeat="tip in tips.data"
+                            name="{{tip.tags}}">
+                            <td>{{tip.name}}</td>
+                            <td ng-repeat="tag in tips.tags">
+                                <button class="btn btn-small btn-primary" type="button">{{tag}}</button>
                             </td>
-                            <td><a name="mylink">http://www.hortis.ch/blog/devoxx-2012-unit-testing-en-javascript-integration-dans-le-build/</a></td>
-                        </tr>                         
-                        <tr name="misc">
-                            <td>Bootstrap directives for AngularJS</td>
-                            <td>
-                                <button class="btn btn-small btn-primary" type="button">misc</button>
-                            </td>
-                            <td><a name="mylink">http://mgcrea.github.com/angular-strap/</a></td>
-                        </tr>                         
-                        <tr name="misc">
-                            <td>Chocolatey NuGet is a Machine Package Manager, somewhat like apt-get, but built with Windows in mind</td>
-                            <td>
-                                <button class="btn btn-small btn-primary" type="button">misc</button>
-                            </td>
-                            <td><a name="mylink">http://chocolatey.org//</a></td>
-                        </tr>                          
-                        <tr name="javascript,test">
-                            <td>Chouchoutez votre code JavaScript</td>
-                            <td>
-                                <button class="btn btn-small btn-primary" type="button">javascript</button>
-                                <button class="btn btn-small btn-primary" type="button">test</button>                                
-                            </td>
-                            <td><a name="mylink">http://linsolas.free.fr/wordpress/index.php/2012/04/chouchoutez-votre-code-javascript/</a></td>
-                        </tr>                        
-                        <tr name="javascript,maven">
-                            <td>Javascript and Maven</td>
-                            <td>
-                                <button class="btn btn-small btn-primary" type="button">javascript</button>
-                                <button class="btn btn-small btn-primary" type="button">maven</button>
-                            </td>
-                            <td><a name="mylink">http://www.itaware.eu/2012/08/29/javascript-et-maven/</a></td>
+                            <td><a name="mylink">{{tip.link}}</a></td>
                         </tr>
-                        <tr name="jboss">
-                            <td>How do I migrate my application from AS5 or AS6 to AS7</td>
-                            <td>
-                                <button class="btn btn-small btn-primary" type="button">jboss</button>
-                            </td>
-                            <td><a name="mylink">https://docs.jboss.org/author/display/AS7/How+do+I+migrate+my+application+from+AS5+or+AS6+to+AS7</a></td>
-                        </tr>                           
-                        <tr name="jsf">
-                            <td>Add a parameter to a facelet template</td>
-                            <td>
-                                <button class="btn btn-small btn-primary" type="button">jsf</button>
-                            </td>
-                            <td><a name="mylink">http://www.xinotes.org/notes/note/1550/</a></td>
-                        </tr>                          
-                        <tr name="rest">
-                            <td>Secure REST with JAX-RS</td>
-                            <td>
-                                <button class="btn btn-small btn-primary" type="button">rest</button>
-                            </td>
-                            <td><a name="mylink">http://www.slideshare.net/caroljmcdonald/secure-rest-with-jaxrs</a></td>
-                        </tr>                        
-                        <tr name="rest">
-                            <td>REST with Java (JAX-RS) using Jersey - Tutorial</td>
-                            <td>
-                                <button class="btn btn-small btn-primary" type="button">rest</button>
-                            </td>
-                            <td><a name="mylink">http://www.vogella.com/articles/REST/article.html</a></td>
-                        </tr>
-                        <tr name="misc">
-                            <td>JavaMail API – Sending Email Via Gmail SMTP Example</td>
-                            <td>
-                                <button class="btn btn-small btn-primary" type="button">misc</button>
-                            </td>
-                            <td><a name="mylink">http://www.mkyong.com/java/javamail-api-sending-email-via-gmail-smtp-example</a></td>
-                        </tr>
-                        <tr name="cdi,test">
-                            <td>Unit Testing Strategies for CDI based projects</td>
-                            <td>
-                                <button class="btn btn-small btn-primary" type="button">test</button>                                
-                                <button class="btn btn-small btn-primary" type="button">cdi</button>
-                            </td>
-                            <td><a name="mylink">http://struberg.wordpress.com/2012/03/27/unit-testing-strategies-for-cdi-based-projects</a></td>
-                        </tr>
-                        <tr name="cdi">
-                            <td>Application configuration in Java EE 6 using CDI</td>
-                            <td>
-                                <button class="btn btn-small btn-primary" type="button">cdi</button>
-                            </td>
-                            <td><a name="mylink">http://weblogs.java.net/blog/jjviana/archive/2010/05/18/applicaction-configuration-java-ee-6-using-cdi-simple-example</a></td>
-                        </tr>
-                        <tr name="test,maven">
-                            <td>Separating Code Coverage With Maven, Sonar and Jacoco</td>
-                            <td>
-                                <button class="btn btn-small btn-primary" type="button">test</button>
-                                <button class="btn btn-small btn-primary" type="button">maven</button>
-                            </td>
-                            <td><a name="mylink">http://java.dzone.com/articles/separating-code-coverage-maven</a></td>
-                        </tr>
-                        <tr name="rest">
-                            <td>Httpie, alternative to Curl</td>
-                            <td>
-                                <button class="btn btn-small btn-primary" type="button">rest</button>
-                            </td>
-                            <td><a name="mylink">https://github.com/jkbr/httpie</a></td>
-                        </tr>
-                        <tr name="misc">
-                            <td>Regexp tester</td>
-                            <td>
-                                <button class="btn btn-small btn-primary" type="button">misc</button>
-                            </td>
-                            <td><a name="mylink">http://www.myregextester.com/index.php</a></td>
-                        </tr>
-                        <tr name="test">
-                            <td>Mocking out LDAP/JNDI</td>
-                            <td>
-                                <button class="btn btn-small btn-primary" type="button">test</button>
-                            </td>
-                            <td><a name="mylink">http://java.dzone.com/articles/mocking-out-ldapjndi-unit</a></td>
-                        </tr>
-                        <tr name="test">
-                            <td>How to test System.*</td>
-                            <td>
-                                <button class="btn btn-small btn-primary" type="button">test</button>
-                            </td>
-                            <td><a name="mylink">http://c2.com/cgi/wiki?JavaTestingTactics</a></td>
-                        </tr>
-                        <tr name="jboss,maven">
-                            <td>JBoss7 + jboss-as-maven-plugin</td>
-                            <td>
-                                <button class="btn btn-small btn-primary" type="button">jboss</button>
-                                <button class="btn btn-small btn-primary" type="button">maven</button>                                
-                            </td>
-                            <td><a name="mylink">http://codebauss.factor45.org/blog/?p=161</a></td>
-                        </tr>
-                        <tr name="jsf">
-                            <td>Basic security login in JSF</td>
-                            <td>
-                                <button class="btn btn-small btn-primary" type="button">jsf</button>
-                            </td>
-                            <td><a name="mylink">http://stackoverflow.com/questions/1470591/basic-security-in-jsf</a></td>
-                        </tr>
-                        <tr name="jboss,cloud">
-                            <td>How to deploy a Java EE application on OpenShift Express (with AS7 support)</td>
-                            <td>
-                                <button class="btn btn-small btn-primary" type="button">jboss</button>
-                                <button class="btn btn-small btn-primary" type="button">cloud</button>
-                            </td>
-                            <td><a name="mylink">http://jaitechwriteups.blogspot.fr/2011/08/deploy-java-ee-application-on-openshift.html</a></td>
-                        </tr>
-                        
-                        <tr name="jboss,jsf">
-                            <td>How to make JSF2 works on JBoss 5</td>
-                            <td>
-                                <button class="btn btn-small btn-primary" type="button">jboss</button>
-                                <button class="btn btn-small btn-primary" type="button">jsf</button>
-                            </td>
-                            <td><a name="mylink">http://javaevangelist.blogspot.fr/2012/04/jsf-2-on-jboss-as-510.html</a></td>
-                        </tr>                                            
                     </tbody>
                 </table>                
             </div>    
@@ -257,31 +109,36 @@
                 <div style="text-align: right">For any suggestions or dead links, please contact me <a href="mailto:binout@gmail.com" target="_blank"><i class="icon-envelope"></i></a></div>
             </div>
         </div>
-          
-        <script>
-            $(document).ready(function()
-            {
-                $("div[id='count']").text("Total : " + $("tbody[id='list']").children("tr").length + " items");
-                
-                $("a[name='mylink']").each(function()
-                { 
-                    this.href = this.text;
-                    this.target = '_blank';
-                });
-                
-                $("button[id='all']").click(function(event)
-                {
-                    document.location.reload(true);
-                });
-                
-                $("button[name='tag']").click(function(event)
-                {
-                    var tag = event.target.id;
-                    $("tr[name!="+tag+"]").hide();
-                    $("tr[name*="+tag+"]").show();
-                    $("tr[name='head']").show();
-                });
-            });
-        </script>
     </body>
+
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/angular.js/1.1.1/angular.min.js"></script>
+    <script>
+        function TipsCtrl($scope, $http) {
+            $scope.tips = $http.get('data.json').success();
+        }
+
+        $(document).ready(function()
+        {
+            $("div[id='count']").text("Total : " + $("tbody[id='list']").children("tr").length + " items");
+
+            $("a[name='mylink']").each(function()
+            {
+                this.href = this.text;
+                this.target = '_blank';
+            });
+
+            $("button[id='all']").click(function(event)
+            {
+                document.location.reload(true);
+            });
+
+            $("button[name='tag']").click(function(event)
+            {
+                var tag = event.target.id;
+                $("tr[name!="+tag+"]").hide();
+                $("tr[name*="+tag+"]").show();
+                $("tr[name='head']").show();
+            });
+        });
+    </script>
 </html>
