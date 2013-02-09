@@ -9,12 +9,12 @@
         <script src="http://widgets.twimg.com/j/2/widget.js"></script>
     </head>
     
-    <body ng-controller="TipsCtrl">
+    <body>
         <div class="hidden-phone" style="text-align: right">
             <a href="http://www.javaonemorething.wordpress.com" target="_blank"><img src="./img/blog.png" /></a>
         </div>       
         
-        <div class='container'>
+        <div class='container' ng-controller="TagsCtrl">
             <div class='row'>
                 <div class='span2 logo'>
                     <a href="/"><img src="./img/duke.png" /></a>
@@ -24,10 +24,12 @@
                     <p class='lead'>
                       This site is a hub site for all my tricks and tips in java.&nbsp;<br/>
                       The tricks and tips are tagged by categories : <br/>
-                        <button class="btn btn-small btn-primary" type="button" id="all">All</button>
-                        <button ng-repeat="tag in tags.data" class="btn btn-small btn-primary" type="button" name="tag" id="{{tag}}" >
+                        <button class="btn btn-small btn-primary" type="button" onclick="document.location.reload(true)">All</button>
+                        <div ng-repeat="tag in tags.data">
+                            <button class="btn btn-small btn-primary" type="button" onclick="filter('{{tag}}'")>
                             {{tag}}
-                        </button>
+                            </button>
+                        </div>
                     </p>
                 </div>
                 <div class="hidden-phone">
@@ -68,7 +70,7 @@
              
         <br/>
         
-        <div class='container'>
+        <div class='container' ng-controller="TipsCtrl">
             <div class='row'>
                 <div id="count" style="text-align: right"><span ng-cloak>Total : {{tips.data.length}} tips</span></div>
                 <table class="table table-striped table-bordered">
@@ -106,23 +108,15 @@
     <script>
         function TipsCtrl($scope, $http) {
             $scope.tips = $http.get('data.json');
+        }
+        function TagsCtrl($scope, $http) {
             $scope.tags = $http.get('tags.json');
         }
 
-        $(document).ready(function()
-        {
-            $("button[id='all']").click(function(event)
-            {
-                document.location.reload(true);
-            });
-
-            $("button[name='tag']").click(function(event)
-            {
-                var tag = event.target.id;
-                $("tr[name!="+tag+"]").hide();
-                $("tr[name*="+tag+"]").show();
-                $("tr[name='head']").show();
-            });
-        });
+        function filter(tag) {
+            $("tr[name!="+tag+"]").hide();
+            $("tr[name*="+tag+"]").show();
+            $("tr[name='head']").show();
+        }
     </script>
 </html>
