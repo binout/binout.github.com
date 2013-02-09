@@ -8,7 +8,7 @@
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="50d292d9-1d24-4c07-ac8f-3225a6aaf6aa" time="1360422490177" ignored="false" />
     <file path="/data.json" changelist="50d292d9-1d24-4c07-ac8f-3225a6aaf6aa" time="1360404725355" ignored="false" />
-    <file path="/index.html" changelist="50d292d9-1d24-4c07-ac8f-3225a6aaf6aa" time="1360424894111" ignored="false" />
+    <file path="/index.html" changelist="50d292d9-1d24-4c07-ac8f-3225a6aaf6aa" time="1360425151317" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,8 +70,10 @@
       <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="84" selection-start="1619" selection-end="1619" vertical-scroll-proportion="0.64254063">
-              <folding />
+            <state line="10" column="24" selection-start="617" selection-end="617" vertical-scroll-proportion="0.22156574">
+              <folding>
+                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -382,7 +384,9 @@
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="88" column="55" selection-start="4610" selection-end="4610" vertical-scroll-proportion="0.0">
-          <folding />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -409,8 +413,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="84" selection-start="1619" selection-end="1619" vertical-scroll-proportion="0.64254063">
-          <folding />
+        <state line="10" column="24" selection-start="617" selection-end="617" vertical-scroll-proportion="0.22156574">
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
