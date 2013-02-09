@@ -1,5 +1,10 @@
 [
     {
+        "name": "Testing Java Persistence",
+        "link": "http://arquillian.org/guides/testing_java_persistence/#write_the_test",
+        "tags" : ["test"]
+    },
+    {
         "name": "Devoxx 2012 : Unit Testing en Javascript et intégration dans le build",
         "link": "http://www.hortis.ch/blog/devoxx-2012-unit-testing-en-javascript-integration-dans-le-build/",
         "tags" : ["javascript","test"]
