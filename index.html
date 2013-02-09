@@ -86,7 +86,7 @@
                         </tr>
                     </thead>
                     <tbody id="list">
-                        <tr ng-repeat="tip in tips.data"
+                        <tr ng-repeat="tip in tips.data.reverse()"
                             name="{{tip.tags}}">
                             <td>{{tip.name}}</td>
                             <td>
@@ -111,7 +111,7 @@
     <script src="http://cdnjs.cloudflare.com/ajax/libs/angular.js/1.1.1/angular.min.js"></script>
     <script>
         function TipsCtrl($scope, $http) {
-            $scope.tips = $http.get('data.json').reverse();
+            $scope.tips = $http.get('data.json');
         }
 
         $(document).ready(function()
