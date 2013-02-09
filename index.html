@@ -81,7 +81,7 @@
         
         <div class='container' ng-controller="TipsCtrl">
             <div class='row'>
-                <div id="count" style="text-align: right"></div>
+                <div id="count" style="text-align: right"><span ng-cloak>{{tips.data.length}} </span></div>
                 <table class="table table-striped table-bordered">
                     <thead>
                         <tr name="head">
@@ -95,7 +95,7 @@
                             name="{{tip.tags}}">
                             <td>{{tip.name}}</td>
                             <td>
-                                <button ng-repeat="tag in tips.tags" class="btn btn-small btn-primary" type="button">{{tag}}</button>
+                                <button ng-repeat="tag in tip.tags.data" class="btn btn-small btn-primary" type="button">{{tag}}</button>
                             </td>
                             <td><a name="mylink">{{tip.link}}</a></td>
                         </tr>
@@ -119,8 +119,6 @@
 
         $(document).ready(function()
         {
-            $("div[id='count']").text("Total : " + $("tbody[id='list']").children("tr").length + " items");
-
             $("a[name='mylink']").each(function()
             {
                 this.href = this.text;
