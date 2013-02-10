@@ -1,5 +1,10 @@
 [
     {
+        "name": "Serving up JSONP from your JAX-RS Web Services",
+        "link": "http://www.solutionsfit.com/2010/04/18/serving-up-jsonp-from-your-jax-rs-web-services/",
+        "tags" : ["rest", "javascript"]
+    },
+    {
         "name": "AngularUI The companion suite to the AngularJS framework",
         "link": "http://angular-ui.github.com/",
         "tags" : ["javascript"]
