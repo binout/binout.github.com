@@ -1,5 +1,10 @@
 [
     {
+        "name": "TomEE on CloudFoundry",
+        "link": "http://rmannibucau.wordpress.com/2012/10/09/tomee-on-cloudfoundry/",
+        "tags" : ["cloud", "tomee"]
+    },
+    {
         "name": "JAX-RS Arquillian TestCase with @ArquillianResource injection",
         "link": "https://gist.github.com/aslakknutsen/882392",
         "tags" : ["rest", "test"]
