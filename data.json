@@ -1,5 +1,10 @@
 [
     {
+        "name": "Spark, micro web framework",
+        "link": "http://www.sparkjava.com/",
+        "tags" : ["misc"]
+    },
+    {
         "name": "TomEE on CloudFoundry",
         "link": "http://rmannibucau.wordpress.com/2012/10/09/tomee-on-cloudfoundry/",
         "tags" : ["cloud", "tomee"]
