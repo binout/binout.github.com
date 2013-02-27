@@ -1,5 +1,10 @@
 [
     {
+        "name": "Cliche Command-Line Shell",
+        "link": "https://code.google.com/p/cliche/",
+        "tags" : ["misc"]
+    },
+    {
         "name": "Spark, micro web framework",
         "link": "http://www.sparkjava.com/",
         "tags" : ["misc"]
