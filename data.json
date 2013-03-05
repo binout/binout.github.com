@@ -1,5 +1,10 @@
 [
     {
+        "name": "Flat UI",
+        "link": "http://designmodo.github.com/Flat-UI/",
+        "tags" : ["misc"]
+    },
+    {
         "name": "Cliche Command-Line Shell",
         "link": "https://code.google.com/p/cliche/",
         "tags" : ["misc"]
