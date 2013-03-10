@@ -1,5 +1,10 @@
 [
     {
+        "name": "Deploying Jackrabbit to JBoss AS 7",
+        "link": "http://www.javaworld.com/community/node/8185",
+        "tags" : ["jboss"]
+    },
+    {
         "name": "Flat UI",
         "link": "http://designmodo.github.com/Flat-UI/",
         "tags" : ["misc"]
