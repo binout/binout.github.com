@@ -1,5 +1,10 @@
 [
     {
+        "name": "Markable, A remarkable online markdown editor",
+        "link": "http://markable.in/",
+        "tags" : ["misc"]
+    },
+    {
         "name": "Deploying Jackrabbit to JBoss AS 7",
         "link": "http://www.javaworld.com/community/node/8185",
         "tags" : ["jboss"]
