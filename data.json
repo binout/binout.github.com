@@ -1,4 +1,9 @@
-[
+[    
+    {
+        "name": "Asciidoctor java integration",
+        "link": "https://github.com/asciidoctor/asciidoctor-java-integration",
+        "tags" : ["misc"]
+    },
     {
         "name": "Markable, A remarkable online markdown editor",
         "link": "http://markable.in/",
