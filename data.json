@@ -1,5 +1,10 @@
 [    
     {
+        "name": "Bootsnipp, HTML snippets for Bootstrap",
+        "link": "http://bootsnipp.com/",
+        "tags" : ["misc"]
+    },
+    {
         "name": "Asciidoctor java integration",
         "link": "https://github.com/asciidoctor/asciidoctor-java-integration",
         "tags" : ["misc"]
