@@ -1,5 +1,10 @@
 [    
     {
+        "name": "Everything about Java 8",
+        "link": "http://www.techempower.com/blog/2013/03/26/everything-about-java-8/",
+        "tags" : ["misc"]
+    },
+    {
         "name": "Bootsnipp, HTML snippets for Bootstrap",
         "link": "http://bootsnipp.com/",
         "tags" : ["misc"]
