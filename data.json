@@ -1,4 +1,9 @@
-[    
+[  
+    {
+        "name": "Jooq, fluent API for typesafe SQL queries",
+        "link": "http://www.jooq.org/",
+        "tags" : ["misc"]
+    },    
     {
         "name": "Everything about Java 8",
         "link": "http://www.techempower.com/blog/2013/03/26/everything-about-java-8/",
