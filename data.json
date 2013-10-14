@@ -1,4 +1,9 @@
-[  
+[
+    {
+        "name": "How to install cdi in tomcat",
+        "link": "http://balusc.blogspot.de/2013/10/how-to-install-cdi-in-tomcat.html",
+        "tags" : ["cdi"]
+    }, 
     {
         "name": "Jooq, fluent API for typesafe SQL queries",
         "link": "http://www.jooq.org/",
