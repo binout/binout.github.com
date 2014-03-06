@@ -1,5 +1,10 @@
 [
     {
+        "name": "Animated gif screencasts",
+        "link": "http://www.cockos.com/licecap/",
+        "tags" : ["misc"]
+    }, 
+    {
         "name": "Java Visual Regex Tester",
         "link": "http://ocpsoft.org/tutorials/regular-expressions/java-visual-regex-tester/",
         "tags" : ["misc","test"]
