@@ -16,6 +16,7 @@
                 sourceDirectory="${basedir}"
                 sourceDocumentName="index.adoc"
                 outputDirectory="${basedir}"
+                sourceHighlighter="coderay"
                 />
 		</target>
 
