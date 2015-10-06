@@ -1,0 +1,17 @@
+= Benoit Prioux
+Benoit Prioux <benoit.prioux@gmail.com>
+
+== My projects
+
+* asciidoctor-ant
+
+== My talks
+
+* 2014
+** JugSummerCamp
+** BDX/IO
+
+* 2015
+** JugSummerCamp
+** Bordeaux JUG September
+** BDX/OP
