@@ -45,6 +45,18 @@ A library for unit testing of JAX-RS application
 </dependency>
 ----
 
+https://github.com/binout/jaxrs-csv[`jaxrs-csv`] ::
+A JAX-RS extension to manage `text/csv` media type
+
+[source, xml]
+----
+<dependency>
+    <groupId>io.github.binout</groupId>
+    <artifactId>jaxrs-csv</artifactId>
+    <version>${version}</version>
+</dependency>
+----
+
 https://github.com/binout/jiphoto[`jiphoto`] ::
 A java library to read iPhoto library
 

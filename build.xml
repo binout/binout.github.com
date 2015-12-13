@@ -1,6 +1,6 @@
 <project xmlns:asciidoctor="antlib:org.asciidoctor.ant" default="all">
 	<property name="maven.central" value="http://repo1.maven.org/maven2"/>
-	<property name="asciidoctor-version" value="1.5.1"/>
+	<property name="asciidoctor-version" value="1.5.2"/>
     
     <target name="asciidoctor-def">
 			  <mkdir dir="${basedir}/lib"/>
