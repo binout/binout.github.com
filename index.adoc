@@ -71,6 +71,18 @@ A java library to read iPhoto library
 
 == Conferences & Presentations
 
+=== BDX/IO, October 2016
+
+* FEIGN + CREST = REST CLI
+** Slides : https://binout.github.io/bdxio-2016/feign-crest-cli.html
+
+video::FVSaC-MmK0o[youtube]
+
+* La boite à outils pour une Living Documentation
+** Slides : https://binout.github.io/bdxio-2016/living-toolbox.html
+
+video::xbcFyYIKZ_M[youtube]
+
 === BDX/IO, October 2015
 
 * Créer son blog en moins de 5 minutes et publier en Asciidoc !
