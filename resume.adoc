@@ -1,0 +1,118 @@
+= Curriculum Vitae - Benoit Prioux
+Benoit Prioux <benoit.prioux@gmail.com>
+:icons: font
+:setanchors: true
+:last-update-label!:
+
+== Architecte Java / Tech Lead
+
+image::https://lh3.googleusercontent.com/-4YTqUBUVxwc/VeryF0zDYCI/AAAAAAAABp4/9OdTIm64pKM/h120/2015-09-24_Asciidoctor.png[float=right]
+35 ans, marié, 2 enfants +
+icon:home[] 10 allée de Normandie 33600 Pessac +
+icon:phone[] 06 12 11 6815 +
+icon:envelope[] benoit.prioux@gmail.com +
+icon:twitter[] @binout +
+icon:github[] https://github.com/binout/ +
+icon:linkedin[] https://www.linkedin.com/in/benoît-prioux-b372a1a/ +
+
+== Compétences
+
+Langages / Spécifications:: Java SE, Java EE (EJB3, CDI, JPA, JAX-RS), Javascript, Typescript, HTML5
+Framework / Librairies:: Spring Boot, Hibernate, Weld, AngularJs, React, Junit, TestNG
+Serveurs d'application:: JBoss/Wildfly, Glassfish, Tomcat/TomEE
+Base de données:: Oracle, PostgreSQL, MongoDB
+Méthodologies:: TDD, Intégration continue, BDD, Agile/Scrum/Lean Kanban
+Architecture:: API REST, Microservices, Domain Driven Design, CQRS
+Outils:: IntelliJ, Eclipse, Maven, Git, Jenkins, Sonar
+Systèmes d'exploitation:: MacOS, Linux, Windows
+
+== Expériences professionnelles
+
+=== Tech Lead Cloud à Lectra (Cestas)
+
+icon:calendar[] Depuis `Juin 2017`
+
+Développement d'une application web avec une architecture *microservices*
+deployée dans *Microsoft Azure*.
+
+* Référent technique du projet
+* Définition de l'architecture microservices orientée message
+* Mise en place d'une pipeline de continous delivry avec Jenkins
+* Coaching : pair programming, revue de code
+
+Environnement:: Git, Maven, Java 8, Spring Boot, RabbitMq, MongoDB, React
+
+=== Tech Lead PLM à Lectra (Cestas)
+
+icon:calendar[] De `Mars 2014` à `Juin 2017`
+
+Développement d'un PLM pour la gestion du cycle d'un produit dans l'industrie de la mode.
+
+* Référent technique du projet
+* Evolution d'une architecture monolithique vers une architecture *microservices*
+* Approche *Domain Driven Design*
+* Mise en place d'une architecture *REST*
+* Migration de Ant vers *Maven*
+
+Environnement:: Git, Maven, JBoss/Wildfly, Java 8, JPA, CDI, JAX-RS
+
+=== Développeur Senior JavaEE à Lectra (Cestas)
+
+icon:calendar[] De `Mars 2011` à `Mars 2014`
+
+Intégré à une cellule d'architecture pour la maintenance de la plateforme technique du projet PLM Lectra.
+
+* Migration EJB2 vers EJB3
+* Migration de JBoss5 à JBoss7 puis *Wildfly 8 et 10*
+* Mise en place d'une intégration continue avec *Jenkins*
+* Evangélisation des bonnes pratiqus de tests et d'intégration continue
+
+Environnement:: SVN, Java 7, JBoss/Wildfly, Jenkins, Ant
+
+== Développeur JavaEE à Lectra (Cestas)
+
+icon:calendar[] De `Septembre 2008` à `Mars 2011`
+
+Développement d'une plateforme SOA pour le projet PLM Lectra
+
+* Développement de services métiers suivant l'approche *MDA*
+* Conception *UML* avec Magic Draw
+* Gestion d'une base de donnée *Oracle*
+
+Environnement:: SVN, Magic Draw, Spring, Hibernate, JBoss, Oracle
+
+== Développeur JavaEE à Thales Services (Mérignac)
+
+icon:calendar[] De `Septembre 2005` à `Septembre 2008`
+
+Développement dans plusieurs projets pour grands comptes : EDF, Pages Jaunes, Airbus
+
+Environnement:: Java 6, Spring, Hibernate, Struts
+
+== Communauté et Open Source
+
+* Membre du *Bordeaux Java User Group*
+* Commiteur principal du plugin Ant `asciidoctor-ant` au sein du projet open source `Asciidoctor`
+
+== Conférences
+
+Speaker::
+ icon:users[] BDX I/O : 2014, 2015, 2016, 2017 +
+icon:users[] Jug Summer Camp (La Rochelle) : 2014, 2015, 2017
+
+Participation::
+ icon:user[] JavaOne (San Francisco) : 2011, 2016 +
+ icon:user[] Devoxx France : 2011, 2012, 2013, 2014, 2015, 2016) +
+ icon:user[] Devoxx Belgique : 2013, 2015 +
+ icon:user[] Jenkins Conference (Paris) : 2011
+
+== Formations
+
+icon:calendar[] 2002/2005 ::
+ Diplôme d’ingénieur informatique option génie logiciel à l’ENSEIRB (33)
+
+icon:calendar[] 2000/2002 ::
+ Classes préparatoires MPSI puis MP au lycée Chateaubriand à Rennes (35)
+
+icon:calendar[] 2000 ::
+ Baccalauréat Scientifique avec Mention Très Bien

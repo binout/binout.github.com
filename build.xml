@@ -1,7 +1,7 @@
 <project xmlns:asciidoctor="antlib:org.asciidoctor.ant" default="all">
 	<property name="maven.central" value="http://repo1.maven.org/maven2"/>
-	<property name="asciidoctor-version" value="1.5.2"/>
-    
+	<property name="asciidoctor-version" value="1.5.4"/>
+
     <target name="asciidoctor-def">
 			  <mkdir dir="${basedir}/lib"/>
         <get src="${maven.central}/org/asciidoctor/asciidoctor-ant/${asciidoctor-version}/asciidoctor-ant-${asciidoctor-version}.jar"
@@ -14,7 +14,6 @@
             <asciidoctor:convert
                 backend="html5"
                 sourceDirectory="${basedir}"
-                sourceDocumentName="index.adoc"
                 outputDirectory="${basedir}"
                 sourceHighlighter="coderay"
                 />
