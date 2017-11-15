@@ -71,6 +71,19 @@ A java library to read iPhoto library
 
 == Conferences & Presentations
 
+=== BDX/I0, Novembre 2017
+
+* 10 conseils pour réussir ses premier pas en DDD
+** Slides : https://binout.github.io/ten-tips-gs-ddd/
+** Bingo Feedback : https://drive.google.com/file/d/12ZXLxHyTGQrGODKxQKUm2EdJggmBYSwi/view?usp=sharing
+
+=== JugSummerCamp, September 2017
+
+* 10 conseils pour réussir ses premier pas en DDD
+** Slides : https://binout.github.io/ten-tips-gs-ddd/
+
+video::E-z3PwAVRHs[youtube]
+
 === BDX/IO, October 2016
 
 * FEIGN + CREST = REST CLI
