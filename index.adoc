@@ -71,6 +71,17 @@ A java library to read iPhoto library
 
 == Conferences & Presentations
 
+=== Devoxx France, Avril 2018
+
+* Ceinture Noire Karate en tests d'api
+** Slides : https://binout.github.io/karate-devoxxfr2018/
+
+=== Touraine Tech, Février 2017
+
+* 10 conseils pour réussir ses premier pas en DDD
+** Slides : https://binout.github.io/ten-tips-gs-ddd/
+** Video : https://www.dailymotion.com/video/x6gb1jn
+
 === BDX/I0, Novembre 2017
 
 * 10 conseils pour réussir ses premier pas en DDD
