@@ -71,10 +71,40 @@ A java library to read iPhoto library
 
 == Conferences & Presentations
 
+=== BDX/I0, Novembre 2018
+
+* Property Based Testing, la vérité vraie !
+** Slides : https://binout.github.io/pbt
+
+video::0LXcJy1QHIQ[youtube]
+
+* Dessine moi ... un DSL en Kotlin
+** Slides : https://binout.github.io/kotlin-dsl
+
+video::2PDiZsw4YhE[youtube]
+
+* Ceinture Noire Karate en tests d'api
+** Slides : https://ncomet.github.io/karate-conf2018/bdxio.html
+
+video::Cnma3WbKvtE[youtube]
+
+=== Dev Fest Toulouse, Novembre 2018
+
+* Ceinture Noire Karate en tests d'api
+** Slides : https://ncomet.github.io/karate-conf2018/devfesttoulouse.html
+** Bingo Feedback : https://drive.google.com/open?id=0B8S4hxfH2oQTbV9vMGp5OGFnMHpkeVpwTXc3cVM2a0xQcWw0
+
+=== Bordeaux JUG, Octobre 2018
+
+* Ceinture Noire Karate en tests d'api
+** Slides : https://ncomet.github.io/karate-conf2018/bdxjug.html
+
 === Devoxx France, Avril 2018
 
 * Ceinture Noire Karate en tests d'api
 ** Slides : https://binout.github.io/karate-devoxxfr2018/
+
+video::NYlPxd5dZOU[youtube]
 
 === Touraine Tech, Février 2017
 

@@ -97,12 +97,15 @@ Environnement:: Java 6, Spring, Hibernate, Struts
 == Conférences
 
 Speaker::
- icon:users[] BDX I/O : 2014, 2015, 2016, 2017 +
+icon:users[] BDX I/O : 2014, 2015, 2016, 2017, 2018 +
+icon:users[] Devoxx France : 2018 +
+icon:users[] Dev Fest Toulouse : 2018 +
+icon:users[] Touraine Tech : 2018 +
 icon:users[] Jug Summer Camp (La Rochelle) : 2014, 2015, 2017
 
 Participation::
  icon:user[] JavaOne (San Francisco) : 2011, 2016 +
- icon:user[] Devoxx France : 2011, 2012, 2013, 2014, 2015, 2016) +
+ icon:user[] Devoxx France : 2011, 2012, 2013, 2014, 2015, 2016, 2018 +
  icon:user[] Devoxx Belgique : 2013, 2015 +
  icon:user[] Jenkins Conference (Paris) : 2011
 
