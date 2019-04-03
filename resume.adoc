@@ -7,7 +7,7 @@ Benoit Prioux <benoit.prioux@gmail.com>
 == Architecte Java / Tech Lead
 
 image::https://lh3.googleusercontent.com/-4YTqUBUVxwc/VeryF0zDYCI/AAAAAAAABp4/9OdTIm64pKM/h120/2015-09-24_Asciidoctor.png[float=right]
-35 ans, marié, 2 enfants +
+37 ans, marié, 2 enfants +
 icon:home[] 10 allée de Normandie 33600 Pessac +
 icon:phone[] 06 12 11 6815 +
 icon:envelope[] benoit.prioux@gmail.com +
@@ -17,10 +17,11 @@ icon:linkedin[] https://www.linkedin.com/in/benoît-prioux-b372a1a/ +
 
 == Compétences
 
-Langages / Spécifications:: Java SE, Java EE (EJB3, CDI, JPA, JAX-RS), Javascript, Typescript, HTML5
+Langages / Spécifications:: Java SE, Java EE (EJB3, CDI, JPA, JAX-RS), Kotlin, Javascript, Typescript, HTML5
 Framework / Librairies:: Spring Boot, Hibernate, Weld, AngularJs, React, Junit, TestNG
 Serveurs d'application:: JBoss/Wildfly, Glassfish, Tomcat/TomEE
 Base de données:: Oracle, PostgreSQL, MongoDB
+Infrastructure:: Docker, Kubernetes
 Méthodologies:: TDD, Intégration continue, BDD, Agile/Scrum/Lean Kanban
 Architecture:: API REST, Microservices, Domain Driven Design, CQRS
 Outils:: IntelliJ, Eclipse, Maven, Git, Jenkins, Sonar
@@ -39,8 +40,9 @@ deployée dans *Microsoft Azure*.
 * Définition de l'architecture microservices orientée message
 * Mise en place d'une pipeline de continous delivry avec Jenkins
 * Coaching : pair programming, revue de code
+* Migration Java/Koltin
 
-Environnement:: Git, Maven, Java 8, Spring Boot, RabbitMq, MongoDB, React
+Environnement:: Git, Maven, Java 11/Kotlin, Spring Boot, Docker, Kubernetes, RabbitMq, MongoDB, React
 
 === Tech Lead PLM à Lectra (Cestas)
 
@@ -102,6 +104,7 @@ icon:users[] Devoxx France : 2018 +
 icon:users[] Dev Fest Toulouse : 2018 +
 icon:users[] Touraine Tech : 2018 +
 icon:users[] Jug Summer Camp (La Rochelle) : 2014, 2015, 2017
+icon:users[] Breizhcamp : 2019
 
 Participation::
  icon:user[] JavaOne (San Francisco) : 2011, 2016 +
