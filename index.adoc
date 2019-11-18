@@ -71,6 +71,21 @@ A java library to read iPhoto library
 
 == Conferences & Presentations
 
+=== BDX/I0, Novembre 2019
+
+* Tester en Kotlin
+** Slides : https://binout.github.io/test-in-kotlin
+** Feedback : https://openfeedback.io/3BQH3sLpx0EfLHHC7Wng/2019-11-15/32
+
+video::DjmkTe4foww[youtube]
+
+=== BreizhCamp, Mai 2019
+
+* Dessine moi ... un DSL en Kotlin
+** Slides : https://binout.github.io/kotlin-dsl
+
+video::L95nmHBjs7g[youtube]
+
 === BDX/I0, Novembre 2018
 
 * Property Based Testing, la vérité vraie !
