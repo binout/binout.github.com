@@ -77,6 +77,8 @@ A java library to read iPhoto library
 ** Slides : https://binout.github.io/test-in-kotlin
 ** Feedback : https://openfeedback.io/3BQH3sLpx0EfLHHC7Wng/2019-11-15/32
 
+image:https://pbs.twimg.com/media/EJrvxRsXkAMu7Sq?format=jpg&name=large[width=40%]
+
 video::DjmkTe4foww[youtube]
 
 === BreizhCamp, Mai 2019
