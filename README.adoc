@@ -10,66 +10,19 @@ icon:twitter[] @binout +
 icon:github[] https://github.com/binout
 
 
-== Projects
-
-=== Open Source
+== Open Source
 
 https://github.com/asciidoctor/asciidoctor-ant[`asciidoctor-ant`] ::
 main contributor of project in https://github.com/asciidoctor/[Asciidoctor organization].
 
-=== Personal
-
-http://binout.github.io/daiquiri/[`daiquiri`] ::
-An utility for java unit testing
-
-[source, xml]
-----
-<dependency>
-    <groupId>io.github.binout</groupId>
-    <artifactId>daiquiri</artifactId>
-    <version>${version}</version>
-    <scope>test</scope>
-</dependency
-----
-
-https://github.com/binout/jaxrs-unit[`jaxrs-unit`] ::
-A library for unit testing of JAX-RS application
-
-[source, xml]
-----
-<dependency>
-    <groupId>io.github.binout.jaxrs-unit</groupId>
-    <artifactId>jaxrs-unit-api</artifactId>
-    <version>${version}</version>
-    <scope>test</scope>
-</dependency>
-----
-
-https://github.com/binout/jaxrs-csv[`jaxrs-csv`] ::
-A JAX-RS extension to manage `text/csv` media type
-
-[source, xml]
-----
-<dependency>
-    <groupId>io.github.binout</groupId>
-    <artifactId>jaxrs-csv</artifactId>
-    <version>${version}</version>
-</dependency>
-----
-
-https://github.com/binout/jiphoto[`jiphoto`] ::
-A java library to read iPhoto library
-
-[source, xml]
-----
-<dependency>
-    <groupId>io.github.binout</groupId>
-    <artifactId>jiphoto</artifactId>
-    <version>${version}</version>
-</dependency>
-----
-
 == Conferences & Presentations
+
+=== Jug Summer Camp, Septembre 2020
+
+* Docz : documentez vos composants React avec clazz
+** Slides : https://binout.github.io/docz-with-clazz
+
+video::4EjMqhsQwTk[youtube]
 
 === BDX/I0, Novembre 2019
 

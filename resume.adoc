@@ -4,9 +4,9 @@ Benoit Prioux <benoit.prioux@gmail.com>
 :setanchors: true
 :last-update-label!:
 
-== Architecte Java / Tech Lead
+== Architecte / Tech Lead / Software Crafter
 
-37 ans, marié, 2 enfants +
+38 ans, marié, 2 enfants +
 icon:home[] 10 allée de Normandie 33600 Pessac +
 icon:phone[] 06 12 11 6815 +
 icon:envelope[] benoit.prioux@gmail.com +
@@ -16,14 +16,14 @@ icon:linkedin[] https://www.linkedin.com/in/benoît-prioux-b372a1a/ +
 
 == Compétences
 
-Langages / Spécifications:: Java SE, Java EE (EJB3, CDI, JPA, JAX-RS), Kotlin, Javascript, Typescript, HTML5
-Framework / Librairies:: Spring Boot, Hibernate, Weld, AngularJs, React, Junit, TestNG
-Serveurs d'application:: JBoss/Wildfly, Glassfish, Tomcat/TomEE
-Base de données:: Oracle, PostgreSQL, MongoDB
-Infrastructure:: Docker, Kubernetes
-Méthodologies:: TDD, Intégration continue, BDD, Agile/Scrum/Lean Kanban
-Architecture:: API REST, Microservices, Domain Driven Design, CQRS
-Outils:: IntelliJ, Eclipse, Maven, Git, Jenkins, Sonar
+Langages / Spécifications:: Java SE, Java EE, Kotlin, Groovy, Javascript, Typescript
+Framework / Librairies:: Spring Boot, Quarkus, Micronaut, React, NodeJS Express
+Base de données:: PostgreSQL, MongoDB
+Infrastructure:: Docker, Kubernetes, RabbitMQ
+Cloud:: Heroku, CleverCloud, Microsoft Azure
+Méthodologies:: TDD, BDD, Intégration/Déploiement continue, Agile/Scrum/Lean Kanban
+Architecture:: API REST, Microservices, Domain Driven Design, CQRS, Event Driven Architecture
+Outils:: IntelliJ, Maven, Git, Jenkins, Sonar
 Systèmes d'exploitation:: MacOS, Linux, Windows
 
 == Expériences professionnelles
@@ -35,13 +35,13 @@ icon:calendar[] Depuis `Juin 2017`
 Développement d'une application web avec une architecture *microservices*
 deployée dans *Microsoft Azure*.
 
-* Référent technique du projet
+* Référent technique du projet (backend et frontend)
 * Définition de l'architecture microservices orientée message
 * Mise en place d'une pipeline de continous delivry avec Jenkins
-* Coaching : pair programming, revue de code
+* Coaching : pair programming, mob programming, revue de code
 * Migration Java/Koltin
 
-Environnement:: Git, Maven, Java 11/Kotlin, Spring Boot, Docker, Kubernetes, RabbitMq, MongoDB, React
+Environnement:: Git, Maven, Java 11/Kotlin, Spring Boot, Docker, Kubernetes, RabbitMQ, Azure, React, Typescript
 
 === Tech Lead PLM à Lectra (Cestas)
 
@@ -102,7 +102,7 @@ icon:users[] BDX I/O : 2014, 2015, 2016, 2017, 2018, 2019 +
 icon:users[] Devoxx France : 2018 +
 icon:users[] Dev Fest Toulouse : 2018 +
 icon:users[] Touraine Tech : 2018 +
-icon:users[] Jug Summer Camp (La Rochelle) : 2014, 2015, 2017
+icon:users[] Jug Summer Camp (La Rochelle) : 2014, 2015, 2017, 2020 +
 icon:users[] Breizhcamp : 2019
 
 Participation::
