@@ -12,7 +12,7 @@ icon:phone[] 06 12 11 6815 +
 icon:envelope[] benoit.prioux@gmail.com +
 icon:twitter[] @binout +
 icon:github[] https://github.com/binout/ +
-icon:linkedin[] https://www.linkedin.com/in/benoît-prioux-b372a1a/ +
+icon:linkedin[] https://www.linkedin.com/in/benoît-prioux/ +
 
 == Compétences
 
