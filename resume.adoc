@@ -16,8 +16,8 @@ icon:linkedin[] https://www.linkedin.com/in/benoît-prioux/ +
 
 == Compétences
 
-Langages / Spécifications:: Java SE, Java EE, Kotlin, Groovy, Javascript, Typescript
-Framework / Librairies:: Spring Boot, Quarkus, Micronaut, React, NodeJS Express
+Langages / Spécifications:: Java, Kotlin, Javascript, Typescript, Python
+Framework / Librairies:: Spring Boot, Quarkus, Micronaut, React, NodeJS, Flask
 Base de données:: PostgreSQL, MongoDB
 Infrastructure:: Docker, Kubernetes, RabbitMQ
 Cloud:: Heroku, CleverCloud, Microsoft Azure
