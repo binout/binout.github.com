@@ -28,9 +28,15 @@ Systèmes d'exploitation:: MacOS, Linux, Windows
 
 == Expériences professionnelles
 
+=== Senior Software Engineer à Alan (Full Remote)
+
+icon:calendar[] Depuis `Février 2020`
+
+Environnement:: Python, Typescript, React, React Native, Heroku, PostgreSQL
+
 === Tech Lead Cloud à Lectra (Cestas)
 
-icon:calendar[] Depuis `Juin 2017`
+icon:calendar[] De `Juin 2017` à `Février 2020`
 
 Développement d'une application web avec une architecture *microservices*
 deployée dans *Microsoft Azure*.
