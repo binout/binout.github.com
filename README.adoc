@@ -17,6 +17,11 @@ main contributor of project in https://github.com/asciidoctor/[Asciidoctor organ
 
 == Conferences & Presentations
 
+=== Devoxx 2022, Avril 2022
+
+* Records du monde, tour d'horizon et cas d'utilisation
+** Slides : https://binout.github.io/world-record
+
 === Jug Summer Camp, Septembre 2020
 
 * Docz : documentez vos composants React avec clazz
@@ -24,7 +29,7 @@ main contributor of project in https://github.com/asciidoctor/[Asciidoctor organ
 
 video::4EjMqhsQwTk[youtube]
 
-=== BDX/I0, Novembre 2019
+=== BDX/IO, Novembre 2019
 
 * Tester en Kotlin
 ** Slides : https://binout.github.io/test-in-kotlin
@@ -41,7 +46,7 @@ video::DjmkTe4foww[youtube]
 
 video::L95nmHBjs7g[youtube]
 
-=== BDX/I0, Novembre 2018
+=== BDX/IO, Novembre 2018
 
 * Property Based Testing, la vérité vraie !
 ** Slides : https://binout.github.io/pbt
@@ -82,7 +87,7 @@ video::NYlPxd5dZOU[youtube]
 ** Slides : https://binout.github.io/ten-tips-gs-ddd/
 ** Video : https://www.dailymotion.com/video/x6gb1jn
 
-=== BDX/I0, Novembre 2017
+=== BDX/IO, Novembre 2017
 
 * 10 conseils pour réussir ses premier pas en DDD
 ** Slides : https://binout.github.io/ten-tips-gs-ddd/
