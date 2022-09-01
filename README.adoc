@@ -17,10 +17,19 @@ main contributor of project in https://github.com/asciidoctor/[Asciidoctor organ
 
 == Conferences & Presentations
 
+=== BreizhCamp 2022, Juillet 2022
+
+* Records du monde, tour d'horizon et cas d'utilisation
+** Slides : https://binout.github.io/world-record/index-bzh.html
+
+video::zM-BIabiNio[youtube]
+
 === Devoxx 2022, Avril 2022
 
 * Records du monde, tour d'horizon et cas d'utilisation
 ** Slides : https://binout.github.io/world-record
+
+video::O1mclmBNiGM[youtube]
 
 === Jug Summer Camp, Septembre 2020
 
