@@ -6,7 +6,7 @@ Benoit Prioux <benoit.prioux@gmail.com>
 
 == Architecte / Tech Lead / Software Crafter
 
-38 ans, marié, 2 enfants +
+40 ans, marié, 2 enfants +
 icon:home[] 10 allée de Normandie 33600 Pessac +
 icon:phone[] 06 12 11 6815 +
 icon:envelope[] benoit.prioux@gmail.com +
@@ -32,7 +32,7 @@ Systèmes d'exploitation:: MacOS, Linux, Windows
 
 icon:calendar[] Depuis `Février 2020`
 
-Environnement:: Python, Typescript, React, React Native, Heroku, PostgreSQL
+Environnement:: Python, Typescript, React, React Native, AWS, PostgreSQL
 
 === Tech Lead Cloud à Lectra (Cestas)
 
