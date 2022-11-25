@@ -25,3 +25,4 @@ jobs:
       with:
         asciidoctor_params: --attribute=nofooter
         pdf_build: true
+        post_build: mv README.html index.html
