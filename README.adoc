@@ -5,7 +5,7 @@ Benoit Prioux <benoit.prioux@gmail.com>
 :setanchors: true
 :last-update-label!:
 
-image::https://lh3.googleusercontent.com/-4YTqUBUVxwc/VeryF0zDYCI/AAAAAAAABp4/9OdTIm64pKM/h120/2015-09-24_Asciidoctor.png[]
+image::https://lh3.googleusercontent.com/a/ALm5wu2HqF6qTmwAyGN2NSSaFPRJG5FN7c4a1LuXs14Bnls=s83-c-mo[]
 icon:twitter[] @binout +
 icon:github[] https://github.com/binout
 
