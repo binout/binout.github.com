@@ -21,6 +21,10 @@ main contributor of project in https://github.com/asciidoctor/[Asciidoctor organ
 
 * Records du monde, tour d'horizon et cas d'utilisation
 ** Slides : https://binout.github.io/world-record/index-bdxio.html
+** https://openfeedback.io/r46KviPgLYMQfQnFpaGS/2022-10-31/546[Open Feedback]
+
+video::9rqvK_nqjCA[youtube]
+
 
 === BreizhCamp 2022, Juillet 2022
 
