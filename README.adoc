@@ -17,7 +17,14 @@ main contributor of project in https://github.com/asciidoctor/[Asciidoctor organ
 
 == Conferences & Presentations
 
-=== BDX I/O 2022, Décembre 2022
+=== 🇫🇷 Devoxx 2023, April 2023
+
+* Télétravail asynchrone
+** Slides: https://binout.github.io/async-remote-work
+
+video::0dygHx6g8Bw[youtube]
+
+=== 🍷 BDX I/O 2022, Décembre 2022
 
 * Records du monde, tour d'horizon et cas d'utilisation
 ** Slides : https://binout.github.io/world-record/index-bdxio.html
@@ -26,28 +33,28 @@ main contributor of project in https://github.com/asciidoctor/[Asciidoctor organ
 video::9rqvK_nqjCA[youtube]
 
 
-=== BreizhCamp 2022, Juillet 2022
+=== 🥞 BreizhCamp 2022, Juillet 2022
 
 * Records du monde, tour d'horizon et cas d'utilisation
 ** Slides : https://binout.github.io/world-record/index-bzh.html
 
 video::zM-BIabiNio[youtube]
 
-=== Devoxx 2022, Avril 2022
+=== 🇫🇷 Devoxx 2022, Avril 2022
 
 * Records du monde, tour d'horizon et cas d'utilisation
 ** Slides : https://binout.github.io/world-record
 
 video::O1mclmBNiGM[youtube]
 
-=== Jug Summer Camp, Septembre 2020
+=== ⚓️ Jug Summer Camp, Septembre 2020
 
 * Docz : documentez vos composants React avec clazz
 ** Slides : https://binout.github.io/docz-with-clazz
 
 video::4EjMqhsQwTk[youtube]
 
-=== BDX/IO, Novembre 2019
+=== 🍷 BDX/IO, Novembre 2019
 
 * Tester en Kotlin
 ** Slides : https://binout.github.io/test-in-kotlin
@@ -57,14 +64,14 @@ image:https://pbs.twimg.com/media/EJrvxRsXkAMu7Sq?format=jpg&name=large[width=40
 
 video::DjmkTe4foww[youtube]
 
-=== BreizhCamp, Mai 2019
+=== 🥞 BreizhCamp, Mai 2019
 
 * Dessine moi ... un DSL en Kotlin
 ** Slides : https://binout.github.io/kotlin-dsl
 
 video::L95nmHBjs7g[youtube]
 
-=== BDX/IO, Novembre 2018
+=== 🍷 BDX/IO, Novembre 2018
 
 * Property Based Testing, la vérité vraie !
 ** Slides : https://binout.github.io/pbt
@@ -81,44 +88,44 @@ video::2PDiZsw4YhE[youtube]
 
 video::Cnma3WbKvtE[youtube]
 
-=== Dev Fest Toulouse, Novembre 2018
+=== 🌸 Dev Fest Toulouse, Novembre 2018
 
 * Ceinture Noire Karate en tests d'api
 ** Slides : https://ncomet.github.io/karate-conf2018/devfesttoulouse.html
 ** Bingo Feedback : https://drive.google.com/open?id=0B8S4hxfH2oQTbV9vMGp5OGFnMHpkeVpwTXc3cVM2a0xQcWw0
 
-=== Bordeaux JUG, Octobre 2018
+=== 🍷 Bordeaux JUG, Octobre 2018
 
 * Ceinture Noire Karate en tests d'api
 ** Slides : https://ncomet.github.io/karate-conf2018/bdxjug.html
 
-=== Devoxx France, Avril 2018
+=== 🇫🇷 Devoxx France, Avril 2018
 
 * Ceinture Noire Karate en tests d'api
 ** Slides : https://binout.github.io/karate-devoxxfr2018/
 
 video::NYlPxd5dZOU[youtube]
 
-=== Touraine Tech, Février 2017
+=== 🏰 Touraine Tech, Février 2017
 
 * 10 conseils pour réussir ses premier pas en DDD
 ** Slides : https://binout.github.io/ten-tips-gs-ddd/
 ** Video : https://www.dailymotion.com/video/x6gb1jn
 
-=== BDX/IO, Novembre 2017
+=== 🍷 BDX/IO, Novembre 2017
 
 * 10 conseils pour réussir ses premier pas en DDD
 ** Slides : https://binout.github.io/ten-tips-gs-ddd/
 ** Bingo Feedback : https://drive.google.com/file/d/12ZXLxHyTGQrGODKxQKUm2EdJggmBYSwi/view?usp=sharing
 
-=== JugSummerCamp, September 2017
+=== ⚓️ JugSummerCamp, September 2017
 
 * 10 conseils pour réussir ses premier pas en DDD
 ** Slides : https://binout.github.io/ten-tips-gs-ddd/
 
 video::E-z3PwAVRHs[youtube]
 
-=== BDX/IO, October 2016
+=== 🍷 BDX/IO, October 2016
 
 * FEIGN + CREST = REST CLI
 ** Slides : https://binout.github.io/bdxio-2016/feign-crest-cli.html
@@ -130,18 +137,18 @@ video::FVSaC-MmK0o[youtube]
 
 video::xbcFyYIKZ_M[youtube]
 
-=== BDX/IO, October 2015
+=== 🍷 BDX/IO, October 2015
 
 * Créer son blog en moins de 5 minutes et publier en Asciidoc !
 ** Slides : http://binout.github.io/jugsummercamp-2015/blog-hubpress-bdxio.html
 
-=== Bordeaux JUG, September 2015
+=== 🍷 Bordeaux JUG, September 2015
 
 * Asciidoctor RTFM
 ** http://bordeauxjug.org/20150924_Asciidoctor
 ** Slides & Source : https://github.com/binout/asciidoctor-rtfm
 
-=== JugSummerCamp, September 2015
+=== ⚓️ JugSummerCamp, September 2015
 
 * Créer son blog en moins de 5 minutes et publier en Asciidoc !
 ** Slides : http://binout.github.io/jugsummercamp-2015/blog-hubpress.html
@@ -154,12 +161,12 @@ video::EkXuGKnahDw[youtube]
 
 video::v48y7oMp4go[youtube]
 
-=== BDX/IO, October 2014
+=== 🍷 BDX/IO, October 2014
 
 * Asciidoctor et Java
 ** Slides : http://binout.github.io/asciidoctor-quickie/asciidoctor-bdx-io.html
 
-=== JugSummerCamp, October 2014
+=== ⚓️ JugSummerCamp, October 2014
 
 * Asciidoctor et Java
 ** Slides : http://binout.github.io/asciidoctor-quickie/asciidoctor-quickie.html
