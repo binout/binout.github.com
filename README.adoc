@@ -17,6 +17,13 @@ main contributor of project in https://github.com/asciidoctor/[Asciidoctor organ
 
 == Conferences & Presentations
 
+=== 🏰 Touraine Tech, Février 2024
+
+* De l’ignorance à la dépendance : Comment l’IA a changé ma façon de coder ?
+** Slides : https://binout.github.io/ai-dev-xp/
+** Feedback : https://openfeedback.io/ja4pTWDgQDlDNBoFU5V1/2024-02-08/6EYUeaaOxvLHPPVBAMd6
+
+
 === 🇫🇷 Devoxx 2023, April 2023
 
 * Télétravail asynchrone
